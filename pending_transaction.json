@@ -1,0 +1,13 @@
+{
+    "ticket_number": "1",
+    "driver_name": "Daniel",
+    "vehicle_no": "B 3949 ERF",
+    "weight_in": 21369.028542265296,
+    "weight_out": null,
+    "net_weight": 20507.028542265296,
+    "status": "COMPLETED",
+    "date_in": null,
+    "date_out": "2025-05-13 09:22:15",
+    "username_in": null,
+    "username_out": "Unknown User"
+}

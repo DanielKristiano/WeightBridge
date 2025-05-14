@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>777</width>
+    <height>486</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btnNew">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>240</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>NEW TICKET</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>701</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Transaction Number</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Vehicle No.</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Driver Name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>IN</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>OUT</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Net</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Transaction Date</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>777</width>
+     <height>33</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

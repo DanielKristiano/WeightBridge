@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>835</width>
+    <height>618</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>501</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QLabel" name="labelDatr">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Transaction Date</string>
+     </property>
+    </widget>
+    <widget class="QDateEdit" name="dateEdit">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>30</y>
+       <width>311</width>
+       <height>23</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelScan">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>51</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Scan QR</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineScan">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>70</y>
+       <width>301</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditDriver">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>110</y>
+       <width>301</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelDriver">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Driver Name</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelNopol">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>150</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Vehicle No.</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditNopol">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>150</y>
+       <width>301</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>190</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Ticket Number</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditTicketnum">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>190</y>
+       <width>301</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="btnSave">
+    <property name="geometry">
+     <rect>
+      <x>744</x>
+      <y>520</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnPrint">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>520</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Print Ticket</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCancel">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>520</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cancel Transaction</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_IN">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>30</y>
+      <width>301</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Weight IN</string>
+    </property>
+    <widget class="QPushButton" name="btnIN">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>61</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>IN</string>
+     </property>
+    </widget>
+    <widget class="QLCDNumber" name="lcdIN">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>20</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>20</y>
+       <width>21</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kg</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBoxIN">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>20</y>
+       <width>80</width>
+       <height>24</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QDateTimeEdit" name="dateTimeIN">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>50</y>
+       <width>201</width>
+       <height>23</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_OUT">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>120</y>
+      <width>301</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Weight OUT</string>
+    </property>
+    <widget class="QPushButton" name="btnOUT">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>61</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>OUT</string>
+     </property>
+    </widget>
+    <widget class="QLCDNumber" name="lcdOUT">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>20</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>20</y>
+       <width>21</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kg</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBoxOUT">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>20</y>
+       <width>80</width>
+       <height>24</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QDateTimeEdit" name="dateTimeEditOUT">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>50</y>
+       <width>194</width>
+       <height>23</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QTextEdit" name="textNet">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>240</y>
+      <width>261</width>
+      <height>101</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNET">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>220</y>
+      <width>22</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>NET</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelkg">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>220</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kg</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>835</width>
+     <height>33</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
